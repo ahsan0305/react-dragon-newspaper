@@ -35,8 +35,9 @@ const Navbar = () => {
                         <img src={userDefaultImg} />
                     </div>
                 </label>
-                <Link>
-                    <button className="btn btn-group">Login</button></Link>
+                <Link to={'/login'}>
+                    <button className="btn btn-group">Login</button>
+                </Link>
             </div>
         </div>
     );
